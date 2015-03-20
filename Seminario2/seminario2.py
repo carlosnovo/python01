@@ -1,7 +1,9 @@
-# -*- coding: utf-8 -*-
-# <nbformat>3.0</nbformat>
+#GRUPO 33
 
-# <codecell>
+#Francisco Jose Macias Periñan
+#Carlos Alberto novo Foncubierta
+
+#Programa que muestra la cadena mas larga posible de concatenar de una lista de palabras
 
 def palabra_en_lista(palabra, lista, tamanno_lista): #comprueba si la palabra esta en la lista de concatenacion
 	i = 0
