@@ -1,11 +1,10 @@
 <html>
 <head>
-    <meta charset="utf-8">
     <link href="http://www.google.com/design/spec/static/css/main.css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=RobotoDraft:400,500,700,400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://josecarlosaragon.hol.es/estilos.css" rel='stylesheet' type='text/css'>
-    
     <title>Seminario 3 - Sistemas Distribuidos</title>
+    <link rel="stylesheet" href="http://josecarlosaragon.hol.es/estilos.css" rel='stylesheet' type='text/css'>
+    {{mymap.js}}
 </head>
 <body>
     <header class="qp-ui" data-qp-ui="{
@@ -27,16 +26,9 @@
     </div>
   </div>
 </header>
-    
-
-    <div class="search">
-    	<div class="group"> 
-			<form action="/buscar" method="POST">
-		   		<input type="text" name="text">
-		        <input type="submit" name="my-form" class="button buttonBlue" value="Buscar">
-		    </form>
-		</div>
-	</div>
+  <div class="group" style="margin-left:25%">
+    <div width=600, height=800>{{mymap.html}}</div>
+  </div>
 
 </body>
 </html>
